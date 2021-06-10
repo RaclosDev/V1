@@ -1,3 +1,5 @@
+package main;
+
 import gui.Gui;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -78,7 +80,7 @@ public class Main {
         ChromeOptions options = new ChromeOptions();
         driver = new ChromeDriver(options);
         System.out.println(driver.getTitle());
-        //(CdpRemoteWebDriver) driver).executeCdpCommand("Page.addScriptToEvaluateOnNewDocument", {"source": """Object.defineProperty(navigator, 'maxTouchPoints', {get: () => 1})"""});
+        //(remote.CdpRemoteWebDriver) driver).executeCdpCommand("Page.addScriptToEvaluateOnNewDocument", {"source": """Object.defineProperty(navigator, 'maxTouchPoints', {get: () => 1})"""});
 
 
     }

@@ -1,3 +1,5 @@
+package remote;
+
 import com.google.common.collect.ImmutableMap;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.remote.CommandExecutor;
